@@ -1,17 +1,15 @@
 #include<stdio.h>
-int main ()
+int main()
 {
-    int i,n;
+    int n,i;
     printf("Enter a number:");
     scanf("%d",&n);
-    i=1;
-    while ( i <= n)
+    for (i=1;i<=n;i++)
     {
-        if (n%i == 0)
-        {
+        if (n % i ==0 )
+         {
             printf("%d ",i);
         }
-        i = i+1;
-    }
-    return 0;
+     }
+     return 0;
 }
